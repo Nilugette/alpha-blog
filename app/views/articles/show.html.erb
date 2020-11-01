@@ -16,7 +16,7 @@
         </div>
         <div class="card-footer text-muted">
         <small>
-            created <%= time_ago_in_words(article.created_at || Time.now) %> ago, edited <%= time_ago_in_words(article.updated_at || Time.now) %> ago
+            created <%= time_ago_in_words(@article.created_at || Time.now) %> ago, edited <%= time_ago_in_words(@article.updated_at || Time.now) %> ago
         </small>
         </div>
         </div>
